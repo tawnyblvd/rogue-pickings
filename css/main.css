@@ -1,0 +1,126 @@
+.body {
+  font-family: "Montserrat", sans-serif;
+  padding-left: 25px;
+}
+
+.full-width {
+  float: left;
+  width: 95vw;
+}
+
+.half-width {
+  float: left;
+}
+
+.third-width {
+  float: left;
+  height: 100%;
+  width: 33%;
+}
+
+/* Header */
+
+.title {
+  font-size: 28px;
+  color: #729d62;
+  text-transform: uppercase;
+}
+
+.top-navigation {
+  float: right;
+  padding-right: 25px;
+}
+
+.navigation__item {
+  color: #729d62;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 12px;
+  text-transform: uppercase;
+}
+
+/* First Section */
+
+#greenbeans {
+  border-color: green;
+  border-style: solid;
+  border-top-width: thick;
+  border-right-width: none;
+  border-bottom-width: thick;
+  border-left-width: none;
+  width: 95vw;
+  max-height: 275px;
+}
+
+.welcome {
+  font-size: 18px;
+  color: #729d62;
+  text-transform: uppercase;
+}
+
+.description {
+  line-height: 1.5;
+}
+
+/* Restaurant Details Section */
+
+.restaurant-details {
+  border: 2px solid lightgray;
+  border-right: none;
+  border-left: none;
+}
+
+.restaurant-details_text {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  padding: 0 20px 0 20px;
+}
+
+.restaurant-details__header {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.restaurant-details__header_specials {
+  margin-left: -20px;
+}
+
+.restaurant-details__specials_item {
+  color: #729d62;
+  margin-left: -20px;
+}
+
+.restaurant-details__review {
+  border-right: 2px solid lightgray;
+  border-left: 2px solid lightgray;
+}
+
+.restaurant-details_text_review {
+  max-width: 350px;
+}
+
+/* Footer */
+.footer {
+  clear: both;
+  text-align: center;
+}
+
+.author {
+  font-size: 16px;
+  font-weight: bold;
+  word-spacing: 2px;
+  text-transform: uppercase;
+  margin-right: 8px;
+}
+
+.fresh {
+  color: #729d62;
+  font-family: "Galada", cursive;
+  font-weight: normal;
+  font-style: italic;
+  text-transform: lowercase;
+  margin-right: 3px;
+  margin-left: 3px;
+}
