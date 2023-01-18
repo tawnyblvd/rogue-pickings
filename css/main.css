@@ -3,11 +3,15 @@
   padding-left: 25px;
 }
 
+.content-wrapper {
+  margin: 0 auto;
+  overflow: auto;
+  width: 1200px;
+}
+
 .full-width {
   float: left;
-  width: 95vw;
-  max-width: 1200px;
-  /* width: 1200px; */
+  /* width: 95vw; */
 }
 
 .half-width {
@@ -92,6 +96,7 @@
 .restaurant-details__specials_item {
   color: #729d62;
   margin-left: -20px;
+  list-style-type: none;
 }
 
 .restaurant-details__review {
