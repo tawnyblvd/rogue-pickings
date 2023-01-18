@@ -6,6 +6,8 @@
 .full-width {
   float: left;
   width: 95vw;
+  max-width: 1200px;
+  /* width: 1200px; */
 }
 
 .half-width {
