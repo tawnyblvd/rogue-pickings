@@ -1,6 +1,11 @@
 .body {
-  font-family: "Montserrat", sans-serif;
-  padding-left: 25px;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #000000;
+}
+
+p {
+  line-height: 36px;
 }
 
 .content-wrapper {
@@ -9,125 +14,143 @@
   width: 1200px;
 }
 
-.full-width {
-  float: left;
-  /* width: 95vw; */
-}
-
-.half-width {
-  float: left;
-}
-
-.third-width {
-  float: left;
-  height: 100%;
-  width: 33%;
+.title,
+.welcome,
+.restaurant-details__header,
+.author {
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 /* Header */
 
 .title {
-  font-size: 28px;
-  color: #729d62;
-  text-transform: uppercase;
+  float: left;
+  font-size: 30px;
+  color: #45610e;
+  margin: 0;
+  padding: 36px 0;
+  width: 300px;
 }
 
-.top-navigation {
+.title span {
+  color: #000000;
+}
+
+.navigation {
   float: right;
-  padding-right: 25px;
+  padding: 44px 0;
+  width: 300px;
+}
+
+.navigation__list {
+  margin: 0;
+  padding: 0;
+  text-align: right;
 }
 
 .navigation__item {
-  color: #729d62;
+  color: #45610e;
   display: inline-block;
   font-size: 14px;
   font-weight: bold;
-  padding: 12px;
   text-transform: uppercase;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.navigation__item a {
+  color: #45610e;
+  text-decoration: none;
 }
 
 /* First Section */
 
-#greenbeans {
-  border-color: green;
-  border-style: solid;
-  border-top-width: thick;
-  border-right-width: none;
-  border-bottom-width: thick;
-  border-left-width: none;
-  width: 95vw;
-  max-height: 275px;
+.greenbeans {
+  border-top: 3px solid #77a466;
+  border-bottom: 3px solid #77a466;
 }
 
 .welcome {
-  font-size: 18px;
-  color: #729d62;
-  text-transform: uppercase;
+  font-size: 24px;
+  color: #45610e;
+  margin: 0;
+  padding: 25px 0;
 }
 
-.description {
-  line-height: 1.5;
+.main-title p {
+  margin-top: 0;
 }
 
 /* Restaurant Details Section */
 
-.restaurant-details {
-  border: 2px solid lightgray;
-  border-right: none;
-  border-left: none;
+.restaurant-details .content-wrapper {
+  border-top: 5px solid #eee;
+  border-bottom: 5px solid #eee;
 }
 
 .restaurant-details_text {
-  font-size: 16px;
-  line-height: 1.5;
   text-align: left;
   padding: 0 20px 0 20px;
 }
 
 .restaurant-details__header {
-  text-transform: uppercase;
-  font-size: 14px;
+  font-size: 20px;
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
-.restaurant-details__header_specials {
-  margin-left: -20px;
-}
-
-.restaurant-details__specials_item {
-  color: #729d62;
-  margin-left: -20px;
+.menu-list {
   list-style-type: none;
+  margin: 0;
+  padding-left: 0;
 }
 
-.restaurant-details__review {
-  border-right: 2px solid lightgray;
-  border-left: 2px solid lightgray;
+.menu-list__item {
+  color: #45610e;
+  line-height: 36px;
 }
 
-.restaurant-details_text_review {
-  max-width: 350px;
+.section-one,
+.section-two,
+.section-three {
+  float: left;
+  box-sizing: border-box;
+}
+
+.section-one,
+.section-three {
+  width: 350px;
+}
+
+.section-one {
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.section-two {
+  border-right: 5px solid #eee;
+  border-left: 5px solid #eee;
+  width: 500px;
 }
 
 /* Footer */
 .footer {
   clear: both;
+  margin-top: 8px;
   text-align: center;
 }
 
 .author {
-  font-size: 16px;
-  font-weight: bold;
-  word-spacing: 2px;
-  text-transform: uppercase;
-  margin-right: 8px;
+  font-size: 12px;
 }
 
 .fresh {
-  color: #729d62;
+  color: #45610e;
   font-family: "Galada", cursive;
   font-weight: normal;
+  font-size: 14px;
   font-style: italic;
   text-transform: lowercase;
-  margin-right: 3px;
-  margin-left: 3px;
 }
